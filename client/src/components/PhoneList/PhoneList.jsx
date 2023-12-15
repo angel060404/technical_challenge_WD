@@ -8,7 +8,7 @@ const PhoneList = ({ phones }) => {
             <Row>
                 {phones?.map(elm => {
                     return (
-                        <Col key={elm._id} md={{ span: 4 }} style={{ display: "flex", justifyContent: "space-around" }}>
+                        <Col key={elm._id} md={{ span: 6 }} style={{ display: "flex", justifyContent: "space-around" }}>
                             <PhoneCard phone={elm} />
                         </Col>
                     )
